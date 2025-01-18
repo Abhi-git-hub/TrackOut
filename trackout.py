@@ -11,7 +11,7 @@ import colorama
 colorama.init(autoreset=True)
 
 os.system("clear");
-print colorama.Fore.CYAN + """
+print (colorama.Fore.CYAN + """)
   _____                _      ___       _   
  /__   \_ __ __ _  ___| | __ /___\_   _| |_ 
    / /\/ '__/ _` |/ __| |/ ///  // | | | __|
@@ -19,7 +19,7 @@ print colorama.Fore.CYAN + """
   \/   |_|  \__,_|\___|_|\_\___/  \__,_|\__|                                           
   Python IP Tracker - Abay | abaykan.com
 """
-print "\r"
+print ("\r")
 while True:
 		ip = raw_input("What Your Target IP : ")
 		url = "https://api.ipdata.co/"
